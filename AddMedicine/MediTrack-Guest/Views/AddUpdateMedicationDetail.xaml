@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MediTrack_Guest.Views.AddUpdateMedicationDetail"
+             Title="AddUpdateMedicationDetail">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="TextColor" Value="SlateGray" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout Margin="10" Spacing="15">
+        <VerticalStackLayout>
+            <Label Text="Medicine Name"/>
+            <Entry Text="{Binding MedicationDetail.Medicine}" Placeholder="Medicine" />
+        <BoxView HeightRequest="0.8" Color="Gray" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+
+        <Label Text="Symptom"/>
+            <Entry Text="{Binding MedicationDetail.Symptom}" Placeholder="Symptom" />
+        <BoxView HeightRequest="0.8" Color="Gray" />
+
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+        <Label Text="Allergic"/>
+            <Entry Text="{Binding MedicationDetail.Allergic}" Placeholder="Allergic" />
+        <BoxView HeightRequest="0.8" Color="Gray" />
+        </VerticalStackLayout>
+                <Button Text="Save" Command="{Binding AddUpdateMedicationCommand}"/>
+    </StackLayout>
+</ContentPage>

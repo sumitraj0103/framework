@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Meditrack
+build_property.ProjectDir = C:\Users\sraj14\Documents\Capgemini\Capathon\Framework-MediTrack\Meditrack\Meditrack\
+
+[C:/Users/sraj14/Documents/Capgemini/Capathon/Framework-MediTrack/Meditrack/Meditrack/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meditrack.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/sraj14/Documents/Capgemini/Capathon/Framework-MediTrack/Meditrack/Meditrack/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meditrack.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/sraj14/Documents/Capgemini/Capathon/Framework-MediTrack/Meditrack/Meditrack/Controls/FlyoutHeaderControl.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meditrack.Controls.FlyoutHeaderControl.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\FlyoutHeaderControl.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\FlyoutHeaderControl.xaml
+
+[C:/Users/sraj14/Documents/Capgemini/Capathon/Framework-MediTrack/Meditrack/Meditrack/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meditrack.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/sraj14/Documents/Capgemini/Capathon/Framework-MediTrack/Meditrack/Meditrack/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meditrack.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/sraj14/Documents/Capgemini/Capathon/Framework-MediTrack/Meditrack/Meditrack/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meditrack.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/sraj14/Documents/Capgemini/Capathon/Framework-MediTrack/Meditrack/Meditrack/Views/Dashboard/AdminDashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meditrack.Views.Dashboard.AdminDashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Dashboard\AdminDashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Dashboard\AdminDashboardPage.xaml
+
+[C:/Users/sraj14/Documents/Capgemini/Capathon/Framework-MediTrack/Meditrack/Meditrack/Views/Dashboard/DashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meditrack.Views.Dashboard.DashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Dashboard\DashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Dashboard\DashboardPage.xaml
+
+[C:/Users/sraj14/Documents/Capgemini/Capathon/Framework-MediTrack/Meditrack/Meditrack/Views/Dashboard/DoctorDashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meditrack.Views.Dashboard.DoctorDashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Dashboard\DoctorDashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Dashboard\DoctorDashboardPage.xaml
+
+[C:/Users/sraj14/Documents/Capgemini/Capathon/Framework-MediTrack/Meditrack/Meditrack/Views/Dashboard/PatientDashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meditrack.Views.Dashboard.PatientDashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Dashboard\PatientDashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Dashboard\PatientDashboardPage.xaml
+
+[C:/Users/sraj14/Documents/Capgemini/Capathon/Framework-MediTrack/Meditrack/Meditrack/Views/Startup/LoadingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meditrack.Views.Startup.LoadingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Startup\LoadingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Startup\LoadingPage.xaml
+
+[C:/Users/sraj14/Documents/Capgemini/Capathon/Framework-MediTrack/Meditrack/Meditrack/Views/Startup/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Meditrack.Views.Startup.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Startup\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Startup\LoginPage.xaml

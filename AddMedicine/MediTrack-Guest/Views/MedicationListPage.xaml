@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:MediTrack_Guest.Models"
+             xmlns:viewModels="clr-namespace:MediTrack_Guest.ViewModels"
+             x:DataType="viewModels:MedicationListPageViewModel"
+             x:Class="MediTrack_Guest.Views.MedicationListPage"
+             Title="Medication List">
+    <StackLayout Margin="10">
+        <Label Text="MedicationList" FontSize="28" />
+        <Button Text="Add Medication" Command="{Binding AddUpdateMedicationCommand}" HorizontalOptions="EndAndExpand" />
+
+        <CollectionView ItemsSource="{Binding Medications}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:MedicationModel">
+                    <Frame Margin="10" Padding="10">
+                    <StackLayout Margin="10">
+                        <HorizontalStackLayout Spacing="1">
+                            <Label Text="{Binding Medicine} "/>
+                            <Label Text="{Binding Symptom} "/>
+                            
+                        </HorizontalStackLayout>
+                        <Label Text="{Binding Allergic} "/>
+                    </StackLayout>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Source={x:RelativeSource AncestorType={x:Type viewModels:MedicationListPageViewModel}}, Path=DisplayActionCommand}" CommandParameter="{Binding .}" />
+                            </Frame.GestureRecognizers>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>
